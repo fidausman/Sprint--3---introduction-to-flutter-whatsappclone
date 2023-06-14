@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/pages/chatpage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -67,7 +68,7 @@ class _HomePageState extends State<HomePage>
         controller: _controller,
         children: [
           Text("Camera"),
-          Text("Chats"),
+         ChatPage(),
           Text("Status"),
           Text("Calls"),
 
